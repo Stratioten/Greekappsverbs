@@ -1,0 +1,1295 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> AncientGreek_revise.com </title>
+<style><!--For the style-->
+h1 {
+  font-size: 100px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 20px;
+}
+div.a {
+  text-align: center;
+}
+ 
+div.b {
+  text-align: left;
+}
+ 
+div.c {
+  text-align: right;
+}
+img {
+
+  max-width: 100%;
+
+  height: auto;
+
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<style><!--Navigation Bar CSS-->
+div.mycontainer {
+  width:100%;
+  overflow:auto;
+}
+div.mycontainer div {
+  width:33%;  
+  float:left;
+}
+/* ===== MAIN MENU ===== */
+.ul1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #B3975F;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;               /* center the menu */
+  justify-content: center;
+  z-index: 10;
+}
+
+.ul1 > li {
+  display: inline-block;
+}
+
+/* Top-level links */
+li a, .dropbtn {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: background-color 0.2s ease; /* smooth hover color */
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #C1AB7E;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+/* Dropdown menu */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #B3975F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #C1AB7E;
+  transform: translateX(5px);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* ===== 3RD LEVEL DROPDOWNS ===== */
+.sub-dropdown {
+  position: relative;
+}
+
+.sub-dropdown-content {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  background-color: #B3975F;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 2;
+}
+
+.sub-dropdown:hover .sub-dropdown-content {
+  display: block;
+}
+
+.sub-btn {
+  display: block;
+  padding: 12px 16px;
+  color: black;
+  text-decoration: none;
+  position: relative;
+  transition: transform 0.2s ease, background-color 0.2s ease; /* smooth hover animation */
+}
+
+.sub-btn::after {
+  content: " ▸";
+  float: right;
+}
+
+/* Hover effect: move sub-btn slightly right and change background */
+.sub-btn:hover {
+  transform: translateX(5px);
+  background-color: #C1AB7E;
+}
+#grad {
+  background-image: linear-gradient(to right, #8A7242, #C1AB7E, #8A7242);
+}
+  body { font-family: 'Roboto', sans-serif; }
+
+</style>
+
+<body div id="grad">
+<b><div class="a"><!--Navigation Bar-->
+<ul class="ul1">
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn">-ω</a>
+    <div class="dropdown-content">
+      <a href="#wpresent">Present</a>
+      <a href="#wfuture">Future</a>
+      <a href="#wimperfect">Imperfect</a>
+      <a href="#w1aorist">1st Aorist</a>
+      <a href="#w2aorist">2nd Aorist</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn">-εω</a>
+    <div class="dropdown-content">
+      <a href="#ewpresent">Present</a>
+      <a href="#ewfuture">Future</a>
+      <a href="#ewimperfect">Imperfect</a>
+      <a href="#ew1aorist">1st Aorist</a>
+      <a href="#ew2aorist">2nd Aorist</a>
+    </div>
+  </li>
+
+  <li class="dropdown">
+    <a href="#" class="dropbtn">-αω</a>
+    <div class="dropdown-content">
+      <a href="#awpresent">Present</a>
+      <a href="#awfuture">Future</a>
+      <a href="#awimperfect">Imperfect</a>
+      <a href="#aw1aorist">1st Aorist</a>
+      <a href="#aw2aorist">2nd Aorist</a>
+    </div>
+  </li>
+
+  <!-- ===== IRREGULAR VERBS (3 LEVELS) ===== -->
+  <li class="dropdown">
+    <a href="#" class="dropbtn">Irregular verbs</a>
+
+    <div class="dropdown-content">
+
+      <div class="sub-dropdown">
+        <a href="#" class="sub-btn">εἰμί</a>
+        <div class="sub-dropdown-content">
+          <a href="#eimipresent">Present</a>
+          <a href="#eimifuture">Future</a>
+		  <a href="#eimiimperfect">Imperfect</a>
+        </div>
+      </div>
+
+      <div class="sub-dropdown">
+        <a href="#" class="sub-btn">εἶμι</a>
+        <div class="sub-dropdown-content">
+          <a href="#eemifuture">Future</a>
+        </div>
+      </div>
+
+      <div class="sub-dropdown">
+        <a href="#" class="sub-btn">φημί</a>
+        <div class="sub-dropdown-content">
+          <a href="#phemipresent">Present</a>
+          <a href="#phemiimperfect">Imperfect</a>
+        </div>
+      </div>
+
+      <div class="sub-dropdown">
+        <a href="#" class="sub-btn">οἶδα</a>
+        <div class="sub-dropdown-content">
+          <a href="#oidapresent">Present</a>
+        </div>
+      </div>
+
+      <div class="sub-dropdown">
+        <a href="#" class="sub-btn">δίδωμι</a>
+        <div class="sub-dropdown-content">
+          <a href="#didomifuture">Future</a>
+          <a href="#didomiaorist">Aorist</a>
+        </div>
+      </div>
+
+    </div>
+  </li>
+
+</ul>
+</div>
+</b>
+<br>
+<br>
+<br>
+ <marquee behavior="scroll" direction="left" scrollamount="20">Please share this app to your friends who might benefit from this webpage and I hope you like the experience :)</marquee>
+<div class="a">
+<h1 style="font-size:5vw"><u>How to '<i>Ace</i>'ient Greek: <i>Verbs</i></u></h1>
+</div>
+</head>
+<div class="a">
+<img src="Greekfightingsoldiers.jfif" alt="not loaded" width=1000vmin>
+</div>
+<h2 style="font-size:30px">Here you can revise a whole bunch of tenses, active, middle and passive in <span style="color:#800080;">-ω, -εω, -αω</span> and irregular verbs including:</h2>
+<ol><b><!--Table of contents-->
+<li>Present tense</li>
+<li>Future tense</li>
+<li>Imperfect tense</li>
+<li>1st Aorist tense</li>
+<li>2nd Aorist tense</li>
+<li>(+more coming soon)</li>
+</ol><b>
+<br><br><br><br><br>
+ 
+<style><!--Tables--!>
+th, td {border: 2px solid black;}
+
+* {
+  box-sizing: border-box;
+}
+ 
+.row {
+  display: flex;
+  margin-left:-5px;
+  margin-right:-5px;
+}
+ 
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+ 
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+td {
+  text-align: left;
+  padding: 16px;
+}
+th {
+  text-align: left;
+  padding: 16px;
+  background-color: #A4874E;
+}
+ 
+tr:nth-child(even) {
+  background-color: #B3975F;
+}
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 5px;
+}
+.table1 {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 50%;
+  border: 1px solid #ddd;
+  margin-left: auto;
+  margin-right: auto;
+}
+</style>
+<h1>Verbs in (<span style="color:#800080;">-ω</span>)</h1>
+<h2 id="wpresent">Verbs (Present Tense<span style="color:#800080;">-ω</span>)</h2>
+ 
+<table style="font-size:3vw"> <!--For Verb (Present Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>παυ-ω</td>
+<td>παυ-ομαι</td>
+<td>παυ-ομαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>παυ-εις</td>
+<td>παυ-ῃ</td>
+<td>παυ-ῃ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>παυ-ει</td>
+<td>παυ-εται</td>
+<td>παυ-εται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>παυ-ομεν</td>
+<td>παυ-ομεθα</td>
+<td>παυ-ομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>παυ-ετε</td>
+<td>παυ-εσθε</td>
+<td>παυ-εσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>παυ-ουσι (ν)</td>
+<td>παυ-ονται</td>
+<td>παυ-ονται</td>
+</tr>
+</table>
+<h2 id="wfuture">Verbs (Future Tense<span style="color:#800080;">-ω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb (Future Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>παυ-σ-ω</td>
+<td>παυ-σ-ομαι</td>
+<td>παυ-σθησ-ομαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>παυ-σ-εις</td>
+<td>παυ-σ-ῃ</td>
+<td>παυ-σθησ-ῃ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>παυ-σ-ει</td>
+<td>παυ-σ-εται</td>
+<td>παυ-σθησ-εται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>παυ-σ-ομεν</td>
+<td>παυ-σ-ομεθα</td>
+<td>παυ-σθησ-ομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>παυ-σ-ετε</td>
+<td>παυ-σ-εσθε</td>
+<td>παυ-σθησ-εσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>παυ-σ-ουσι (ν)</td>
+<td>παυ-σ-ονται</td>
+<td>παυ-σθησ-ονται</td>
+</tr>
+</table>
+<h2 style="font-size:30px">Please note(for future tense):</h2>
+<p><b><span> If a verb stem ends in <span style="color:#800080;">'κ' adding a '-σ' to the stem makes a 'ξ'</span>. <span style="color:#800080;">Same with 'γ' and '-σ'.</span></p>
+<p> If a verb stem ends in <span style="color:#800080;">'π' adding a '-σ' to the stem makes a 'ψ'</span>. <span style="color:#800080;">Same with 'φ' and '-σ'.</p>
+<p>Also because <span style="color:#800080;">'σ-κ-σ'</span> and <span style="color:#800080;">'θ-σ'</span> are hard to pronounce the first sigma and the theta drop out so: <span style="color:#800080;">διδασκ</span> goes to <span style="color:#800080;">διδαξ-ω</span> and <span style="color:#800080;">πειθ</span> goes to <span style="color:#800080;">πει-σ-ω</span></b></p>
+ 
+<h2 id="wimperfect">Verbs (Imperfect Tense<span style="color:#800080;">-ω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb (Imperfect Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-παυ-ον</td>
+<td>ἐ-παυ-ομην</td>
+<td>ἐ-παυ-ομην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-παυ-ες</td>
+<td>ἐ-παυ-ου</td>
+<td>ἐ-παυ-ου</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-παυ-ε(ν)</td>
+<td>ἐ-παυ-ετο</td>
+<td>ἐ-παυ-ετο</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-παυ-ομεν</td>
+<td>ἐ-παυ-ομεθα</td>
+<td>ἐ-παυ-ομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-παυ-ετε</td>
+<td>ἐ-παυ-εσθε</td>
+<td>ἐ-παυ-εσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-παυ-ον</td>
+<td>ἐ-παυ-οντο</td>
+<td>ἐ-παυ-οντο</td>
+</tr>
+</table>
+<h2 style="font-size:30px">Please note (Imperfect tense):</h2>
+<p><b>The endings for They and I are the same: <span style="color:#800080;">'ον'</span> so you need to work out who they mean from the context</b></p>
+
+<h2 id="w1aorist">Verbs (1st Aorist<span style="color:#800080;">-ω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb (1st aorist)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-παυ-σ-α</td>
+<td>ἐ-παυ-σ-αμην</td>
+<td>ἐ-παυ-σ-θην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-παυ-σ-ας</td>
+<td>ἐ-παυ-σ-ω</td>
+<td>ἐ-παυ-σ-θης</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-παυ-σ-ε (ν)</td>
+<td>ἐ-παυ-σ-ατο</td>
+<td>ἐ-παυ-σ-θη</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-παυ-σ-αμεν</td>
+<td>ἐ-παυ-σ-αμεθα</td>
+<td>ἐ-παυ-σ-θημεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-παυ-σ-ατε</td>
+<td>ἐ-παυ-σ-ασθε</td>
+<td>ἐ-παυ-σ-θητε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-παυ-σ-αν</td>
+<td>ἐ-παυ-σ-αντο</td>
+<td>ἐ-παυ-σ-θησαν</td>
+</tr>
+</table>
+
+<h2 id="w2aorist" >Verbs (2nd Aorist<span style="color:#800080;">-ω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb (2nd aorist)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-λαβ-ον</td>
+<td>ἐ-λαβ-ομην</td>
+<td>ἐ-ληφ-θην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-λαβ-ες</td>
+<td>ἐ-λαβ-ου</td>
+<td>ἐ-ληφ-θης</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-λαβ-ε (ν)</td>
+<td>ἐ-λαβ-ετο</td>
+<td>ἐ-ληφ-θη</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-λαβ-ομεν</td>
+<td>ἐ-λαβ-ομεθα</td>
+<td>ἐ-ληφ-θημεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-λαβ-ετε</td>
+<td>ἐ-λαβ-εσθε</td>
+<td>ἐ-ληφ-θητε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-λαβ-ον</td>
+<td>ἐ-λαβ-οντο</td>
+<td>ἐ-ληφ-θησαν</td>
+</tr>
+</table>
+
+<h2 style="font-size:35px">Top 10 irregular aorists:</h2>
+<b><ul>
+<li><span style="color:#800080;">εἷλον</span>, I took, (αἱρέω)</li>
+<li><span style="color:#800080;">ἀπέθανον</span>, I died; I was killed, (ἀποθνῄσκω)</li>
+<li><span style="color:#800080;">ἐγενόμην</span>, I became, (γίγνομαι)</li>
+<li><span style="color:#800080;">ἦλθον</span>, I came; I went, (ἔρχομαι)</li>
+<li><span style="color:#800080;">ηὗρον</span>, I found, (εὑρίσκω)</li>
+<li><span style="color:#800080;">ἔσχον</span>, I had, (ἔχω)</li>
+<li><span style="color:#800080;">ἔλαβον</span>, I took; I captured, (λαμβάνω)</li>
+<li><span style="color:#800080;">εἶπον</span>, I said, (λέγω)</li>
+<li><span style="color:#800080;">εἶδον</span>, I saw, (ὁράω)</li>
+<li><span style="color:#800080;">ἥνεγκα</span>, I carried, (φέρω)</li>
+</ul></b>
+
+<h1>Verbs in (<span style="color:#008000;">-εω</span>)</h1>
+<h2 id="ewpresent">Verbs (Present Tense<span style="color:#008000;">-εω</span>)</h2>
+
+<table style="font-size:3vw"> <!--For Verb ew (Present Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>φιλ-ῶ</td>
+<td>φιλ-οῦμαι</td>
+<td>φιλ-οῦμαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>φιλ-εῖς</td>
+<td>φιλ-ῇ</td>
+<td>φιλ-ῇ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>φιλ-εῖ</td>
+<td>φιλ-εῖται</td>
+<td>φιλ-εῖται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>φιλ-οῦμεν</td>
+<td>φιλ-οῦμεθα</td>
+<td>φιλ-οῦμεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>φιλ-εῖτε</td>
+<td>φιλ-εῖσθε</td>
+<td>φιλ-εῖσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>φιλ-οῦσι (ν)</td>
+<td>φιλ-οῦνται</td>
+<td>φιλ-οῦνται</td>
+</tr>
+</table>
+<h2 id="ewfuture">Verbs (Future Tense<span style="color:#008000;">-εω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb ew (Future Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>φιλη-σ-ω</td>
+<td>φιλη-σ-ομαι</td>
+<td>φιλη-θησ-ομαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>φιλη-σ-εις</td>
+<td>φιλη-σ-ῃ</td>
+<td>φιλη-θησ-ῃ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>φιλη-σ-ει</td>
+<td>φιλη-σ-εται</td>
+<td>φιλη-θησ-εται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>φιλη-σ-ομεν</td>
+<td>φιλη-σ-ομεθα</td>
+<td>φιλη-θησ-ομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>φιλη-σ-ετε</td>
+<td>φιλη-σ-εσθε</td>
+<td>φιλη-θησ-εσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>φιλη-σ-ουσι (ν)</td>
+<td>φιλη-σ-ονται</td>
+<td>φιλη-θησ-ονται</td>
+</tr>
+</table>
+
+<h2 id="ewimperfect">Verbs (Imperfect Tense<span style="color:#008000;">-εω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb ew (Imperfect Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-φιλ-ουν</td>
+<td>ἐ-φιλ-ουμην</td>
+<td>ἐ-φιλ-ουμην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-φιλ-εις</td>
+<td>ἐ-φιλ-οῦ</td>
+<td>ἐ-φιλ-οῦ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-φιλ-ει</td>
+<td>ἐ-φιλ-εῖτο</td>
+<td>ἐ-φιλ-εῖτο</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-φιλ-οῦμεν</td>
+<td>ἐ-φιλ-ουμεθα</td>
+<td>ἐ-φιλ-ουμεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-φιλ-εῖτε</td>
+<td>ἐ-φιλ-εῖσθε</td>
+<td>ἐ-φιλ-εῖσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-φιλ-ουν</td>
+<td>ἐ-φιλ-οῦντο</td>
+<td>ἐ-φιλ-οῦντο</td>
+</tr>
+</table>
+
+<h2 id="ew1aorist">Verbs (1st Aorist<span style="color:#008000;">-εω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb ew (1st aorist)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-φιλη-σ-α</td>
+<td>ἐ-φιλη-σ-αμην</td>
+<td>ἐ-φιλη-σ-θην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-φιλη-σ-ας</td>
+<td>ἐ-φιλη-σ-ω</td>
+<td>ἐ-φιλη-σ-θης</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-φιλη-σ-ε (ν)</td>
+<td>ἐ-φιλη-σ-ατο</td>
+<td>ἐ-φιλη-σ-θη</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-φιλη-σ-αμεν</td>
+<td>ἐ-φιλη-σ-αμεθα</td>
+<td>ἐ-φιλη-σ-θημεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-φιλη-σ-ατε</td>
+<td>ἐ-φιλη-σ-ασθε</td>
+<td>ἐ-φιλη-σ-θητε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-φιλη-σ-αν</td>
+<td>ἐ-φιλη-σ-αντο</td>
+<td>ἐ-φιλη-σ-θησαν</td>
+</tr>
+</table>
+
+<h2 id="ew2aorist" >Verbs (2nd Aorist<span style="color:#008000;">-εω</span>)</h2>
+
+<p><b>A few verbs in <span style="color:#008000;">-εω</span> do have 2nd (strong) aorists (<span style="color:#008000;">ἀφικνομην</span>, ἀφικνεομαι; <span style="color:#008000;">εἱλον</span>, αἱρεω) but when declining these verbs do not involve contraction, use 2nd Aorist (<span style="color:#008000;">-ω</span>) to revise these</b></p>
+ 
+<b>Irregular aorists <span style="color:#008000;">-εω</span>:</b>
+<b><ul>
+<li><span style="color:#008000;">εἷλον</span>, I took, (αἱρέω)</li>
+<li><span style="color:#008000;">ἀφικομην</span>,I arrived, (ἀφικνεομαι)</li>
+<li><span style="color:#008000;">ἐκαλεσα</span>, I called; I invited, (καλεω)</li>
+<li><span style="color:#008000;">ἐπλευσα</span>, I sail, (πλεω)</li>
+<li><span style="color:#008000;">ὑποσχον</span>, I promise, (ὑπισχνεομαι <i>(+fut inf)</i>)</li>
+</ul></b>
+ 
+ <h1>Verbs in (<span style="color:#FF0000;">-αω</span>)</h1>
+<h2 id="awpresent">Verbs (Present Tense<span style="color:#FF0000;">-εω</span>)</h2>
+
+<table style="font-size:3vw"> <!--For Verb aw (Present Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>τιμ-ῶ</td>
+<td>τιμ-ῶμαι</td>
+<td>τιμ-ῶμαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>τιμ-ᾷς</td>
+<td>τιμ-ᾷ</td>
+<td>τιμ-ᾷ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>τιμ-ᾷ</td>
+<td>τιμ-ᾶται</td>
+<td>τιμ-ᾶται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>τιμ-ῶμεν</td>
+<td>τιμ-ώμεθα</td>
+<td>τιμ-ώμεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>τιμ-ᾶτε</td>
+<td>τιμ-ᾶσθε</td>
+<td>τιμ-ᾶσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>τιμ-ῶσῐ (ν)</td>
+<td>τιμ-ῶνται</td>
+<td>τιμ-ῶνται</td>
+</tr>
+</table>
+<h2 id="awfuture">Verbs (Future Tense<span style="color:#FF0000;">-αω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb aw (Future Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>τιμη-σ-ω</td>
+<td>τιμη-σ-ομαι</td>
+<td>τιμη-θησ-ομαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>τιμη-σ-εις</td>
+<td>τιμη-σ-ῃ</td>
+<td>τιμη-θησ-ῃ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>τιμη-σ-ει</td>
+<td>τιμη-σ-εται</td>
+<td>τιμη-θησ-εται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>τιμη-σ-ομεν</td>
+<td>τιμη-σ-ομεθα</td>
+<td>τιμη-θησ-ομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>τιμη-σ-ετε</td>
+<td>τιμη-σ-εσθε</td>
+<td>τιμη-θησ-εσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>τιμη-σ-ουσι (ν)</td>
+<td>τιμη-σ-ονται</td>
+<td>τιμη-θησ-ονται</td>
+</tr>
+</table>
+
+<h2 id="awimperfect">Verbs (Imperfect Tense<span style="color:#FF0000;">-αω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb aw (Imperfect Tense)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-τιμ-ων</td>
+<td>ἐ-τιμ-ωμην</td>
+<td>ἐ-τιμ-ωμην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-τιμ-ας</td>
+<td>ἐ-τιμ-ω</td>
+<td>ἐ-τιμ-ω</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-τιμ-α</td>
+<td>ἐ-τιμ-ατο</td>
+<td>ἐ-τιμ-ατο</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-τιμ-ωμεν</td>
+<td>ἐ-τιμ-ωμεθα</td>
+<td>ἐ-τιμ-ωμεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-τιμ-ατε</td>
+<td>ἐ-τιμ-ασθε</td>
+<td>ἐ-τιμ-ασθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-τιμ-ων</td>
+<td>ἐ-τιμ-ωντο</td>
+<td>ἐ-τιμ-ωντο</td>
+</tr>
+</table>
+
+<h2 id="aw1aorist">Verbs (1st Aorist<span style="color:#FF0000;">-αω</span>)</h2>
+<table style="font-size:3vw"> <!--For Verb aw (1st aorist)-->
+<tr>
+<th>Person</th>
+<th>Active</th>
+<th>Middle</th>
+<th>Passive</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐ-τιμη-σ-α</td>
+<td>ἐ-τιμη-σ-αμην</td>
+<td>ἐ-τιμη-σ-θην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐ-τιμη-σ-ας</td>
+<td>ἐ-τιμη-σ-ω</td>
+<td>ἐ-τιμη-σ-θης</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐ-τιμη-σ-ε (ν)</td>
+<td>ἐ-τιμη-σ-ατο</td>
+<td>ἐ-παυ-σ-θη</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐ-τιμη-σ-αμεν</td>
+<td>ἐ-τιμη-σ-αμεθα</td>
+<td>ἐ-τιμη-σ-θημεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐ-τιμη-σ-ατε</td>
+<td>ἐ-τιμη-σ-ασθε</td>
+<td>ἐ-τιμη-σ-θητε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐ-τιμη-σ-αν</td>
+<td>ἐ-τιμη-σ-αντο</td>
+<td>ἐ-τιμη-σ-θησαν</td>
+</tr>
+</table>
+
+<h2 id="aw2aorist" >Verbs (2nd Aorist<span style="color:#FF0000;">-αω</span>)</h2>
+
+<p><b>A few verbs in <span style="color:#FF0000;">-αω</span> do have 2nd (strong) aorists (but only one in Greek to Gcse: <span style="color:#FF0000;">εἰδον</span>, ὁραω) but when declining these verbs do not involve contraction, use 2nd Aorist (<span style="color:#FF0000;">-ω</span>) to revise these</b></p>
+ 
+<b>Verbs with some kind of irregularity <span style="color:#FF0000;">-αω</span>:</b>
+<b><ul>
+<li>Strong aorist: <span style="color:#FF0000;">εἰδον</span>, I saw, (ὁραω)</li>
+<li>Forms that take alpha instead of eta before the sigma in the future and aorist<ul><li><span style="color:#FF0000;">ἐγελασα</span> (γελαω)</li><li><span style="color:#FF0000;">ἐπειραθην</span> (πειραομαι)</li></ul></li>
+<li>Change in the stem: <span style="color:#FF0000;">ἐχρησαμην</span>, I use (+ <i>dat</i>), (χραομαι)</li>
+</ul></b>
+
+<h1><span style="color:#00008B;">Irregular verbs</span></h1>
+<h2>Conjugation of <span style="color:#00008B;">εἰμί</span> (I am)</h2>
+
+<div class="row">
+  <div class="column">
+  <h2 id="eimipresent"><span style="color:#00008B;">εἰμί</span> (Present)</h2>
+<table style="font-size:3vw"> <!--For Verb Eimi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>εἰμί</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>εἶ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐστι (ν)</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐσμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐστε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>εἰσι (ν)</td>
+</tr>
+</table>
+  </div>
+  
+  <div class="column">
+  <h2 id="eimifuture"><span style="color:#00008B;">εἰμί</span> (Future)</h2>
+<table style="font-size:3vw"> <!--For Verb Eimi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐσομαι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐσῃ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐσται</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐσομεθα</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐσεσθε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐσονται</td>
+</tr>
+</table>
+  </div>
+</div>
+<div class="a">
+  <h2 id="eimiimperfect"><span style="color:#00008B;">εἰμί</span> (Imperfect)</h2>
+<table class="table1" style="font-size:3vw"> <!--For Verb Eimi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἠ</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἠσθα</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἠν</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἠμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἠτε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἠσαν</td>
+</tr>
+</table>
+</div>
+
+<h2>Conjugation of <span style="color:#00008B;">εἶμι</span> (I will go)</h2>
+
+<h2 id="eemifuture"><span style="color:#00008B;">εἶμι</span> (Future <i>of <b>ἐρχομαι</b></i>)</h2>
+<table width="50%" style="font-size:3vw"> <!--For Verb Eemi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>εἶμι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>εἶ</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐστι (ν)</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἰμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἰτε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἰασι (ν)</td>
+</tr>
+</table>
+
+<h2>Conjugation of <span style="color:#00008B;">φημι</span> (I say)</h2>
+
+<div class="row">
+  <div class="column">
+  <h2 id="phemipresent"><span style="color:#00008B;">φημι</span> (Present)</h2>
+<table style="font-size:3vw"> <!--For Verb Phemi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>φημι</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>φῃς</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>φησι (ν)</td>
+</tr>
+<tr>
+<th>We</th>
+<td>φαμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>φατε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>φασι (ν)</td>
+</tr>
+</table>
+  </div>
+  
+  <div class="column">
+  <h2 id="phemiimperfect"><span style="color:#00008B;">φημι</span> (Imperfect)</h2>
+<table style="font-size:3vw"> <!--For Verb Phemi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐφην</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐφησθα</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐφη</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐφαμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐφατε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐφασαν</td>
+</tr>
+</table>
+  </div>
+</div>
+
+<h2>Conjugation of <span style="color:#00008B;">οἰδα</span> (I know)</h2>
+
+<h2 id="oidapresent"><span style="color:#00008B;">οἰδα</span> (Present)</h2>
+<table style="font-size:3vw"> <!--For Verb Oida-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>οἰδα</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>οἰσθα</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>οἰδε (ν)</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἰσμεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἰστε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἰσασι (ν)</td>
+</tr>
+</table>
+
+<h2>Conjugation of <span style="color:#00008B;">διδωμι</span> (I give)</h2>
+
+<div class="row">
+  <div class="column">
+  <h2 id="didomifuture"><span style="color:#00008B;">διδωμι</span> (Future)</h2>
+<table style="font-size:3vw"> <!--For Verb Phemi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>δωσω</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>δωσεις</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>δωσει</td>
+</tr>
+<tr>
+<th>We</th>
+<td>δωσομεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>δωσετε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>δωσουσι (ν)</td>
+</tr>
+</table>
+  </div>
+  
+  <div class="column">
+  <h2 id="didomiaorist"><span style="color:#00008B;">διδωμι</span> (Aorist)</h2>
+<table style="font-size:3vw"> <!--For Verb Phemi-->
+<tr>
+<th>Person</th>
+<th>Greek</th>
+</tr>
+<tr>
+<th>I</th>
+<td>ἐδωκα</td>
+</tr>
+<tr>
+<th>You (sg)</th>
+<td>ἐδωκας</td>
+</tr>
+<tr>
+<th>He/She</th>
+<td>ἐδωκε (ν)</td>
+</tr>
+<tr>
+<th>We</th>
+<td>ἐδομεν</td>
+</tr>
+<tr>
+<th>You (pl)</th>
+<td>ἐδοτε</td>
+</tr>
+<tr>
+<th>They</th>
+<td>ἐδοσαν</td>
+</tr>
+</table>
+  </div>
+</div>
+
+
+<!--~Footer--!>
+<h3>Buy the books</h3>
+<ul>
+<li><a href="https://www.bloomsbury.com/uk/greek-to-gcse-part-1-9781474255172/" target="_blank">Book 1</a></li>
+<li><a href="https://www.bloomsbury.com/uk/greek-to-gcse-part-2-9781474255202/" target="_blank">Book 2</a></li>
+<li><a href="https://www.bloomsbury.com/uk/greek-beyond-gcse-9781474299770/" target="_blank">Beyond GCSE</a></li>
+</ul>
+<br>
+
+<marquee behavior="scroll" direction="left" scrollamount="15"><h4>I am currently making more websites so please stay alert for more content like Participles and Adjectives coming soon!! ;)</h4></marquee>
+</body>
+</html>
